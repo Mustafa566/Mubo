@@ -1,0 +1,2 @@
+open cmd paste this line: auto-py-to-exe
+video: https://www.youtube.com/watch?v=OZSZHmWSOeM&feature=youtu.be
