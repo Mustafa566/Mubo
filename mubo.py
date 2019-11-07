@@ -27,11 +27,11 @@ def openprogram():
     # All of the programs
     # VsCode
     if (WhatProgram == "1"):
-        subprocess.Popen(["D:/Microsoft VS Code/Code.exe"])
+        subprocess.Popen(["C:/Users/Gebruiker/AppData/Local/Programs/Microsoft VS Code/Code.exe"])
 
     # League Of Legends
     elif (WhatProgram == "2"):
-        subprocess.Popen(["D:/League Of Legends/LeagueClient"])
+        subprocess.Popen(["C:/Riot Games/League of Legends/LeagueClient"])
 
     # Chrome
     elif (WhatProgram == "3"):
@@ -39,7 +39,7 @@ def openprogram():
 
     # Playlist
     elif (WhatProgram == "4"):
-        subprocess.Popen(["C:/xampp/htdocs/mubo/MyPlaylist.bat"])
+        subprocess.Popen(["C:/xampp/htdocs/Github/mubo/MyPlaylist.bat"])
 
     # Xampp
     elif (WhatProgram == "5"):
@@ -51,7 +51,7 @@ def openprogram():
 
     # Discord
     elif (WhatProgram == "7"):
-        subprocess.Popen(["C:/Users/Mustafa Bolat/AppData/Local/Discord/app-0.0.305/Discord.exe"])
+        subprocess.Popen(["C:/Users/Gebruiker/AppData/Local/Discord/app-0.0.305/Discord.exe"])
 
 while i > 1:
     openprogram()
